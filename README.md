@@ -11,7 +11,8 @@ latent representation back to an image. An
 autoencoder learns to compress the data while
 minimizing the reconstruction error.
 
-https://github.com/sohamk10/Image-reconstruction-and-Anomaly-detection/issues/1
+![The-structure-of-proposed-Convolutional-AutoEncoders-CAE-for-MNIST-In-the-middle-there](https://user-images.githubusercontent.com/117833435/204174827-0900d4d6-8bfa-4dda-895c-db577c0c5166.png)
+
 
 # Dataset
 
