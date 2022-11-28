@@ -55,3 +55,5 @@ If reconstruction error < Threshold (lower limit) OR reconstruction error > Thre
 detected.  
 
 ![fff](https://user-images.githubusercontent.com/117833435/204222095-54d01e51-ecff-4732-9bde-e49b4c23045e.png)
+
+A normal distribution is used to plot the reconstruction error for all images. Through the calculations above, we calculate the Threshold.
