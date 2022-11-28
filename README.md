@@ -43,7 +43,8 @@ cross-entropy error loss, and a batch size of 60 for 50 epochs.
 
 As mentioned above that the MNIST handwritten digits data set has been used to carry out image reconstruction, the fashion MNIST data set has been used as an anomaly in order to perform anomaly detection and calculate the accuracy of our algorithm.
 
-The process of anomaly detection was carried out through the calculation of Z-score. Based on the reconstruction error for each image, the Z-score is calculated using the following calculations.
+The process of anomaly detection was carried out through the calculation of Z-score. Based on the reconstruction error for each image, the Z-score is calculated using the following calculations.  
+
 
 mean = summation of all the reconstruction errors/ number of input image samples  
 standard deviation = sqrt[( reconstruction error - mean) * ( reconstruction error - mean)]  
