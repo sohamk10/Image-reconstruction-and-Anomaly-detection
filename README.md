@@ -45,10 +45,10 @@ As mentioned above that the MNIST handwritten digits data set has been used to c
 
 The process of anomaly detection was carried out through the calculation of Z-score. Based on the reconstruction error for each image, the Z-score is calculated using the following calculations.
 
-mean = summation of all the reconstruction errors/ number of input image samples__
-standard deviation = sqrt[( reconstruction error - mean) * ( reconstruction error - mean)]__
-Threshold (upper limit) = mean + (3 * standard deviation)__
-Threshold (lower limit) = mean - (3 * standard deviation)
-reconstruction error = binary cross-entropy loss between the original image and reconstructed image.
+mean = summation of all the reconstruction errors/ number of input image samples  
+standard deviation = sqrt[( reconstruction error - mean) * ( reconstruction error - mean)]  
+Threshold (upper limit) = mean + (3 * standard deviation)  
+Threshold (lower limit) = mean - (3 * standard deviation)  
+reconstruction error = binary cross-entropy loss between the original image and reconstructed image.  
 If reconstruction error < Threshold (lower limit) OR reconstruction error > Threshold (upper limit) the anomaly is
 detected.
