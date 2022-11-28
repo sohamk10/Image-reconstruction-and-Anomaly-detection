@@ -11,6 +11,8 @@ latent representation back to an image. An
 autoencoder learns to compress the data while
 minimizing the reconstruction error.
 
+https://github.com/sohamk10/Image-reconstruction-and-Anomaly-detection/issues/1
+
 # Dataset
 
 The data set used for this project is the MNIST data
