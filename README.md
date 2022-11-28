@@ -9,10 +9,10 @@ autoencoder first encodes the image into a lower
 dimensional latent representation, then decodes the
 latent representation back to an image. An
 autoencoder learns to compress the data while
-minimizing the reconstruction error.
+minimizing the reconstruction error.  
 
 
-![The-structure-of-proposed-Convolutional-AutoEncoders-CAE-for-MNIST-In-the-middle-there](https://user-images.githubusercontent.com/117833435/204174827-0900d4d6-8bfa-4dda-895c-db577c0c5166.png)
+![The-structure-of-proposed-Convolutional-AutoEncoders-CAE-for-MNIST-In-the-middle-there](https://user-images.githubusercontent.com/117833435/204174827-0900d4d6-8bfa-4dda-895c-db577c0c5166.png) 
 
 
 # Dataset
@@ -52,4 +52,6 @@ Threshold (upper limit) = mean + (3 * standard deviation)
 Threshold (lower limit) = mean - (3 * standard deviation)  
 reconstruction error = binary cross-entropy loss between the original image and reconstructed image.  
 If reconstruction error < Threshold (lower limit) OR reconstruction error > Threshold (upper limit) the anomaly is
-detected.
+detected.  
+
+![fff](https://user-images.githubusercontent.com/117833435/204222095-54d01e51-ecff-4732-9bde-e49b4c23045e.png)
