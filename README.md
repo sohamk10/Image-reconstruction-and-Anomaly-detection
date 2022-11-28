@@ -57,3 +57,7 @@ detected.
 ![fff](https://user-images.githubusercontent.com/117833435/204222095-54d01e51-ecff-4732-9bde-e49b4c23045e.png)
 
 A normal distribution is used to plot the reconstruction error for all images. Through the calculations above, we calculate the Threshold.
+
+# Results
+
+![Image reconstruction and Amamoly detection](https://user-images.githubusercontent.com/117833435/204223543-9229ba9c-d618-4857-b642-1cd19c105843.png)
